@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Palanquin', sans-serif;
+}
+
+:root {
+    --main-white-color: rgb(255, 255, 255);
+    --main-text-color:  rgb(35, 57, 91);
+    --subtle-text-color:  rgba(35, 57, 91, 0.7);
+    --subtle-green-color:  rgba(87, 213, 151, 0.3);
+    --main-green-color:  rgb(0, 208, 114);
+    --complementary-color:  rgb(0, 122, 255);
+}
+
+body {
+    font-family: 'Palanquin', sans-serif;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}

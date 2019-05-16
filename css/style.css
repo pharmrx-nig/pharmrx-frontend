@@ -123,6 +123,66 @@ header .slider-text img {
   padding-top: 20px;
 }
 
+.how-it-works {
+  height: 600px;
+  margin-bottom: 120px;
+  margin-top: 90px;
+  padding: 30px 0 50px 0;
+}
+
+.how-it-works h2.h2-title {
+  font-size: 35px;
+  text-align: center;
+}
+
+.how-it-works p.special-text {
+  font-size: 18px;
+  margin-bottom: 100px;
+  margin-top: 0;
+  text-align: center;
+}
+
+.how-it-works .works-nav {
+  float: left;
+  margin-top: 60px;
+  width: 20%;
+}
+
+.how-it-works .works-nav p {
+  color: #00D072;
+  font-size: 17px;
+  font-weight: 500;
+  opacity: 0.3;
+}
+
+.how-it-works p.active-works-nav {
+  opacity: 1;
+}
+
+.how-it-works .works-nav p span {
+  background-color: #00D072;
+  border-radius: 15px;
+  display: inline-block;
+  height: 5px;
+  margin-right: 25px;
+  width: 30px;
+}
+
+.how-it-works .works-img {
+  float: left;
+  margin-left: 120px;
+  margin-right: 180px;
+}
+
+.how-it-works .works-sub {
+  margin-left: 120px;
+  margin-top: 150px;
+}
+
+.works-sub p {
+  font-size: 18px;
+}
+
 .why-use {
   background-color: #F5F3F7;
   height: 408px;

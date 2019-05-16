@@ -138,6 +138,67 @@ header {
   
 }
 
+.how-it-works {
+    height: 600px;
+    margin-bottom: 120px;
+    margin-top: 90px;
+    padding: 30px 0 50px 0;
+
+    h2.h2-title {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    p.special-text {
+        font-size: 18px;
+        margin-bottom: 100px;
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .works-nav {
+        float: left;
+        margin-top: 60px;
+        
+        width: 20%;
+    }
+
+    .works-nav p {
+        color: color(main-green);
+        font-size: 17px;
+        font-weight: 500;
+        opacity: 0.3;
+    }
+
+    p.active-works-nav {
+        opacity: 1;
+    }
+
+    .works-nav p span {
+        background-color: color(main-green);
+        border-radius: 15px;
+        display: inline-block;
+        height: 5px;
+        margin-right: 25px;
+        width: 30px;
+    }
+
+    .works-img {
+        float: left;
+        margin-left: 120px;
+        margin-right: 180px;
+    }
+
+    .works-sub {
+        margin-left: 120px;
+        margin-top: 150px;
+    }
+}
+
+.works-sub p {
+    font-size: 18px;
+}
+
 .why-use {
     background-color: #F5F3F7;
     height: 408px;

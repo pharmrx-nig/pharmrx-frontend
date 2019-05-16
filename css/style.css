@@ -351,4 +351,41 @@ footer {
   padding: 15px 12px;
   width: 8%;
 }
+
+.sub-footer {
+  color: #ffffff;
+}
+
+.copyright {
+  display: inline-block;
+  margin-right: 40px;
+}
+
+.footer-links {
+  display: inline-block;
+  margin-right: 40px;
+}
+
+.footer-links a {
+  color: #ffffff;
+  margin: 0 20px;
+}
+
+.social-links {
+  display: inline-block;
+  list-style: none;
+  margin-right: 40px;
+  padding: 0;
+}
+
+.social-links li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.social-links li a {
+  color: #ffffff;
+  font-size: 25px;
+  padding: 0;
+}
 /*# sourceMappingURL=style.css.map */

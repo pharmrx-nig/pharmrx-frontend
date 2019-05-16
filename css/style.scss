@@ -361,4 +361,41 @@ footer {
     width: 8%;
 }
 
+.sub-footer {
+    color: color(white-color);
+}
+
+.copyright {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.footer-links {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.footer-links a{
+    color: color(white-color);
+    margin: 0 20px;
+}
+
+.social-links{
+    display: inline-block;
+    list-style: none;
+    margin-right: 40px;
+    padding: 0;
+}
+
+.social-links li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.social-links li a{
+    color: color(white-color);
+    font-size: 25px;
+    padding: 0;
+}
+
 

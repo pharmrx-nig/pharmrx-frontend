@@ -18,6 +18,9 @@ $colors: (
 
 
 body {
+    color: color(text-color);
+    font-size: 16px;
+    font-family: 'Palanquin', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -27,28 +30,74 @@ body {
     width: 85%;
 }
 
+a {
+    color: color(text-color);
+    text-decoration: none;
+}
+
+p {
+    line-height: 1.4;
+}
+
+.clear-fix {
+    clear: both;
+}
+
 header {
     background: url('../img/bg-Illustration.png') no-repeat;
     background-position-x: 85%;
     border: 1px solid color(text-color);
-    height: 650px;
+    height: 700px;
 
     nav {
         background-color: color(white-color);
-        box-shadow: 2px 2px 10px 2px rgba(35, 57, 91, 0.2);
+        box-shadow: 1px 1px 10px rgba(35, 57, 91, 0.2);
         overflow: hidden;
+        padding: 25px 70px;
 
         .logo {
             float: left;
         }
 
         .nav {
-            float: right;
+            float: right;        
         }
 
         div.nav div {
             display: inline-block;
         }
+
+        div a {
+            font-size: 17px;
+            font-weight: 550;
+            margin-left: 25px;
+        }
+
+        div a.active-link {
+            color: color(main-green);
+        }
     }
+
+    .slider-text {
+        margin-top: 110px;
+    }
+
+    .slider-text h1 {
+        color: color(text-color);
+        font-size: 60px;
+        line-height: 1.2;
+        margin-bottom: 5px;
+        padding-right: 500px; 
+    }
+
+    .slider-text p {
+        font-size: 18px;
+    }
+
+    .slider-text img {
+        margin-right: 25px;
+        margin-top: 25px;
+    }
+
 }
 

@@ -32,6 +32,7 @@ p {
 header {
   background: url("../img/bg-Illustration.png") no-repeat;
   background-position-x: 85%;
+  background-position-y: 55px;
   height: 700px;
 }
 
@@ -58,7 +59,7 @@ header nav div.nav div {
 header nav div a {
   font-size: 17px;
   font-weight: 550;
-  margin-left: 25px;
+  margin-left: 45px;
 }
 
 header nav div a.active-link {
@@ -90,7 +91,7 @@ header .slider-text img {
   background-color: #F9F9F9;
   position: relative;
   height: 109px;
-  top: -40px;
+  top: 30px;
 }
 
 .featured .feature-div {
@@ -113,5 +114,36 @@ header .slider-text img {
 .featured .feature-logo img {
   margin-right: 50px;
   padding-top: 20px;
+}
+
+.why-use {
+  background-color: #F5F3F7;
+  height: 408px;
+  padding-bottom: 30px;
+  padding-top: 60px;
+  text-align: center;
+}
+
+.why-use h2 {
+  color: #00D072;
+  font-size: 28px;
+  margin-bottom: 55px;
+  margin-top: 0;
+}
+
+.why-use .why-card {
+  display: inline-block;
+  width: 24%;
+}
+
+.why-use .why-card h3 {
+  color: #00D072;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.why-use .why-card p {
+  margin-top: 5px;
 }
 /*# sourceMappingURL=style.css.map */

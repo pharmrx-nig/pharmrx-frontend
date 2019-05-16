@@ -46,6 +46,7 @@ p {
 header {
     background: url('../img/bg-Illustration.png') no-repeat;
     background-position-x: 85%;
+    background-position-y: 55px;
     height: 700px;
 
     nav {
@@ -69,7 +70,7 @@ header {
         div a {
             font-size: 17px;
             font-weight: 550;
-            margin-left: 25px;
+            margin-left: 45px;
         }
 
         div a.active-link {
@@ -104,7 +105,7 @@ header {
     background-color: #F9F9F9;
     position: relative;
     height: 109px;
-    top: -40px;
+    top: 30px;
 
     .feature-div {
         margin: 0 auto;
@@ -127,7 +128,38 @@ header {
         margin-right: 50px;
         padding-top: 20px;
     }
+  
+}
+
+.why-use {
+    background-color: #F5F3F7;
+    height: 408px;
+    padding-bottom: 30px;
+    padding-top: 60px;
+    text-align: center;
+
+    h2 {
+        color: color(main-green);
+        font-size: 28px;
+        margin-bottom: 55px;
+        margin-top: 0;
+    }
+
+    .why-card {
+        display: inline-block;
+        width: 24%;
+
+        h3 {
+            color: color(main-green);
+            font-size: 22px;
+            font-weight: bold;
+            margin-bottom: 2px;
+        }
+
+        p {
+            margin-top: 5px;
+        }
+    }
 
 
-    
 }

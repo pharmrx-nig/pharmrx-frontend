@@ -46,7 +46,6 @@ p {
 header {
     background: url('../img/bg-Illustration.png') no-repeat;
     background-position-x: 85%;
-    border: 1px solid color(text-color);
     height: 700px;
 
     nav {
@@ -101,3 +100,34 @@ header {
 
 }
 
+.featured {
+    background-color: #F9F9F9;
+    position: relative;
+    height: 109px;
+    top: -40px;
+
+    .feature-div {
+        margin: 0 auto;
+        width: 55%;
+    }
+
+    h3 {
+        color: color(subtle-text-color);
+        float: left;
+        margin-right: 230px;
+        margin-top: 30px;
+    }
+
+    .feature-logo {
+        display: inline;
+        margin-right: 50px;
+    }
+
+    .feature-logo img {
+        margin-right: 50px;
+        padding-top: 20px;
+    }
+
+
+    
+}

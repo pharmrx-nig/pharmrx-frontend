@@ -32,7 +32,6 @@ p {
 header {
   background: url("../img/bg-Illustration.png") no-repeat;
   background-position-x: 85%;
-  border: 1px solid #23395B;
   height: 700px;
 }
 
@@ -85,5 +84,34 @@ header .slider-text p {
 header .slider-text img {
   margin-right: 25px;
   margin-top: 25px;
+}
+
+.featured {
+  background-color: #F9F9F9;
+  position: relative;
+  height: 109px;
+  top: -40px;
+}
+
+.featured .feature-div {
+  margin: 0 auto;
+  width: 55%;
+}
+
+.featured h3 {
+  color: rgba(35, 57, 91, 0.7);
+  float: left;
+  margin-right: 230px;
+  margin-top: 30px;
+}
+
+.featured .feature-logo {
+  display: inline;
+  margin-right: 50px;
+}
+
+.featured .feature-logo img {
+  margin-right: 50px;
+  padding-top: 20px;
 }
 /*# sourceMappingURL=style.css.map */

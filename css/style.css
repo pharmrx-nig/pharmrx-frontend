@@ -25,6 +25,13 @@ p {
   line-height: 1.4;
 }
 
+.h2-title {
+  color: #00D072;
+  font-size: 28px;
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+
 .clear-fix {
   clear: both;
 }
@@ -124,15 +131,9 @@ header .slider-text img {
   text-align: center;
 }
 
-.why-use h2 {
-  color: #00D072;
-  font-size: 28px;
-  margin-bottom: 55px;
-  margin-top: 0;
-}
-
 .why-use .why-card {
   display: inline-block;
+  margin-top: 40px;
   width: 24%;
 }
 
@@ -145,5 +146,69 @@ header .slider-text img {
 
 .why-use .why-card p {
   margin-top: 5px;
+}
+
+.user-story {
+  background-color: #F9F9F9;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.user-story p.special-text {
+  font-size: 18px;
+  margin-top: 0;
+}
+
+.user-story .story {
+  background-color: #ffffff;
+  border-radius: 6px;
+  -webkit-box-shadow: 1px 1px 10px rgba(230, 230, 230, 0.5);
+          box-shadow: 1px 1px 10px rgba(230, 230, 230, 0.5);
+  display: inline-block;
+  margin-top: 30px;
+  padding: 30px 35px;
+  text-align: left;
+  width: 600px;
+}
+
+.user-story .user {
+  margin-top: 30px;
+}
+
+.user-story .user img {
+  display: inline-block;
+  margin-right: 25px;
+}
+
+.user-story .user .user-info {
+  display: inline-block;
+  margin-bottom: 50px;
+  text-align: left;
+}
+
+.user-story .user .user-info .user-name span {
+  font-weight: bold;
+}
+
+.user-story .user .user-info p {
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.user-story .dots {
+  background-color: #00D072;
+  border-radius: 50%;
+  cursor: pointer;
+  display: inline-block;
+  height: 10px;
+  margin: 0 5px;
+  width: 10px;
+}
+
+.user-story .active-dot {
+  border-radius: 10px;
+  cursor: default;
+  height: 10px;
+  width: 30px;
 }
 /*# sourceMappingURL=style.css.map */

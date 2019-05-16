@@ -293,4 +293,62 @@ header .slider-text img {
 .download .app-store a {
   margin-right: 20px;
 }
+
+.endorsement {
+  height: 350px;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.endorsement h2 {
+  color: rgba(35, 57, 91, 0.7);
+}
+
+.endorsement img {
+  height: auto;
+  margin: 15px;
+  margin-top: 20px;
+}
+
+footer {
+  background-color: #23395b;
+  color: #ffffff;
+  text-align: center;
+}
+
+.newsletter form input[type="email"] {
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: #ffffff;
+  font-size: 17px;
+  outline: none;
+  padding: 15px 0 15px 15px;
+  width: 20%;
+}
+
+.newsletter form input::-webkit-input-placeholder {
+  color: #ffffff;
+}
+
+.newsletter form input:-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.newsletter form input::-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.newsletter form input::placeholder {
+  color: #ffffff;
+}
+
+.newsletter form input[type="submit"] {
+  background: #00D072;
+  border: none;
+  color: #ffffff;
+  font-size: 18px;
+  outline: none;
+  padding: 15px 12px;
+  width: 8%;
+}
 /*# sourceMappingURL=style.css.map */
